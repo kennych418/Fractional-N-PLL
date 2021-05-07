@@ -1,0 +1,20 @@
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+
+DEFINE avTech /w/apps3/Cadence/ASSURA415-617/tools/assura/etc/avtech/avTech
+DEFINE ahdlLib /w/apps3/Cadence/IC617/tools/dfII/samples/artist/ahdlLib
+
+DEFINE gpdk090 /usr/public.2/tech/cadence/90nm/gpdk090_v4.6/libs.oa22/gpdk090
+
+DEFINE gsclib090 /usr/apps/cadence/gsclib090_v2.9/oa22/gsclib090
+
+DEFINE lib_sp20 /w/class.1/ee/ee215e/ee215eta/cadence-labs/generic_90nm_labs/lib_sp20
+
+
+
+#DEFINE ahdlLib /usr/apps/cadence/IC5141.linux/tools/dfII/samples/artist/ahdlLib
+
+#Removed by ddDeleteObj: DEFINE debug_cadence_issues /w/class.1/ee/ee215e/ee215eta/cadence-labs/generic_90nm_labs/debug_cadence_issues
+DEFINE HW1 /w/home.15/ee/ugrad/kennyc/ee215e/HW1
+DEFINE Project /w/home.15/ee/ugrad/kennyc/ee215e/Project

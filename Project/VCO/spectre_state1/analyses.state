@@ -1,0 +1,957 @@
+analysis(pnoise fields Aindices) nil
+analysis(pnoise fields MultiEna) nil
+analysis(pnoise fields MultiEna1) t
+analysis(pnoise fields MultiEna2) nil
+analysis(pnoise fields MultiEna3) nil
+analysis(pnoise fields MultiEna4) nil
+analysis(pnoise fields MultiEna5) nil
+analysis(pnoise fields MultiEna6) nil
+analysis(pnoise fields MultiHeadList) (nil choices ("Name       Input    Output       Relharm      Enable") value nil)
+analysis(pnoise fields MultiList) (nil choices (" ") value nil)
+analysis(pnoise fields addSpecificPoints) nil
+analysis(pnoise fields addSpecificPoints2) nil
+analysis(pnoise fields addSpecificPoints3) nil
+analysis(pnoise fields addSpecificPoints4) nil
+analysis(pnoise fields addSpecificPoints5) nil
+analysis(pnoise fields addSpecificPoints6) nil
+analysis(pnoise fields arrayCoeffs) (nil choices nil value nil)
+analysis(pnoise fields center) ""
+analysis(pnoise fields center2) ""
+analysis(pnoise fields center3) ""
+analysis(pnoise fields center4) ""
+analysis(pnoise fields center5) ""
+analysis(pnoise fields center6) ""
+analysis(pnoise fields crossingdirection) "all"
+analysis(pnoise fields crossingdirection2) "all"
+analysis(pnoise fields crossingdirection3) "all"
+analysis(pnoise fields crossingdirection4) "all"
+analysis(pnoise fields crossingdirection5) "all"
+analysis(pnoise fields crossingdirection6) "all"
+analysis(pnoise fields cycles) nil
+analysis(pnoise fields dec) ""
+analysis(pnoise fields dec2) ""
+analysis(pnoise fields dec3) ""
+analysis(pnoise fields dec4) ""
+analysis(pnoise fields dec5) ""
+analysis(pnoise fields dec6) ""
+analysis(pnoise fields deterministicsources) nil
+analysis(pnoise fields deterministicsources2) nil
+analysis(pnoise fields deterministicsources3) nil
+analysis(pnoise fields deterministicsources4) nil
+analysis(pnoise fields deterministicsources5) nil
+analysis(pnoise fields deterministicsources6) nil
+analysis(pnoise fields deterministicsourcesUI) nil
+analysis(pnoise fields deterministicsourcesUI2) nil
+analysis(pnoise fields deterministicsourcesUI3) nil
+analysis(pnoise fields deterministicsourcesUI4) nil
+analysis(pnoise fields deterministicsourcesUI5) nil
+analysis(pnoise fields deterministicsourcesUI6) nil
+analysis(pnoise fields determsourcesfreqs) nil
+analysis(pnoise fields determsourcesfreqs2) nil
+analysis(pnoise fields determsourcesfreqs3) nil
+analysis(pnoise fields determsourcesfreqs4) nil
+analysis(pnoise fields determsourcesfreqs5) nil
+analysis(pnoise fields determsourcesfreqs6) nil
+analysis(pnoise fields enable) (nil)
+analysis(pnoise fields enableEvent) t
+analysis(pnoise fields enableEvent2) t
+analysis(pnoise fields enableEvent3) t
+analysis(pnoise fields enableEvent4) t
+analysis(pnoise fields enableEvent5) t
+analysis(pnoise fields enableEvent6) t
+analysis(pnoise fields extcorrsources1) nil
+analysis(pnoise fields extcorrsources12) nil
+analysis(pnoise fields extcorrsources13) nil
+analysis(pnoise fields extcorrsources14) nil
+analysis(pnoise fields extcorrsources15) nil
+analysis(pnoise fields extcorrsources16) nil
+analysis(pnoise fields extcorrsources1UI) nil
+analysis(pnoise fields extcorrsources1UI2) nil
+analysis(pnoise fields extcorrsources1UI3) nil
+analysis(pnoise fields extcorrsources1UI4) nil
+analysis(pnoise fields extcorrsources1UI5) nil
+analysis(pnoise fields extcorrsources1UI6) nil
+analysis(pnoise fields extcorrsources2) nil
+analysis(pnoise fields extcorrsources22) nil
+analysis(pnoise fields extcorrsources23) nil
+analysis(pnoise fields extcorrsources24) nil
+analysis(pnoise fields extcorrsources25) nil
+analysis(pnoise fields extcorrsources26) nil
+analysis(pnoise fields extcorrsources2UI) nil
+analysis(pnoise fields extcorrsources2UI2) nil
+analysis(pnoise fields extcorrsources2UI3) nil
+analysis(pnoise fields extcorrsources2UI4) nil
+analysis(pnoise fields extcorrsources2UI5) nil
+analysis(pnoise fields extcorrsources2UI6) nil
+analysis(pnoise fields externSourcesBool) nil
+analysis(pnoise fields externSourcesBool2) nil
+analysis(pnoise fields externSourcesBool3) nil
+analysis(pnoise fields externSourcesBool4) nil
+analysis(pnoise fields externSourcesBool5) nil
+analysis(pnoise fields externSourcesBool6) nil
+analysis(pnoise fields externalsources) nil
+analysis(pnoise fields externalsources2) nil
+analysis(pnoise fields externalsources3) nil
+analysis(pnoise fields externalsources4) nil
+analysis(pnoise fields externalsources5) nil
+analysis(pnoise fields externalsources6) nil
+analysis(pnoise fields externalsourcesUI) nil
+analysis(pnoise fields externalsourcesUI2) nil
+analysis(pnoise fields externalsourcesUI3) nil
+analysis(pnoise fields externalsourcesUI4) nil
+analysis(pnoise fields externalsourcesUI5) nil
+analysis(pnoise fields externalsourcesUI6) nil
+analysis(pnoise fields fund) "4G"
+analysis(pnoise fields harmCoeffs) nil
+analysis(pnoise fields harmListMem) nil
+analysis(pnoise fields harmonics) "Maximum sideband"
+analysis(pnoise fields harmsAndFreqs) (nil choices nil value nil)
+analysis(pnoise fields harmsAndFreqsTitle) (nil choices ("index   frequency") value nil)
+analysis(pnoise fields harmsAndFreqsTitle2) (nil choices ("index   frequency") value nil)
+analysis(pnoise fields inIsrc) ""
+analysis(pnoise fields inIsrc2) ""
+analysis(pnoise fields inIsrc3) ""
+analysis(pnoise fields inIsrc4) ""
+analysis(pnoise fields inIsrc5) ""
+analysis(pnoise fields inIsrc6) ""
+analysis(pnoise fields inPort) ""
+analysis(pnoise fields inPort2) ""
+analysis(pnoise fields inPort3) ""
+analysis(pnoise fields inPort4) ""
+analysis(pnoise fields inPort5) ""
+analysis(pnoise fields inPort6) ""
+analysis(pnoise fields inType) "port"
+analysis(pnoise fields inType2) "port"
+analysis(pnoise fields inType3) "port"
+analysis(pnoise fields inType4) "port"
+analysis(pnoise fields inType5) "port"
+analysis(pnoise fields inType6) "port"
+analysis(pnoise fields inVsrc) ""
+analysis(pnoise fields inVsrc2) ""
+analysis(pnoise fields inVsrc3) ""
+analysis(pnoise fields inVsrc4) ""
+analysis(pnoise fields inVsrc5) ""
+analysis(pnoise fields inVsrc6) ""
+analysis(pnoise fields incrType) "Automatic"
+analysis(pnoise fields incrType2) "Automatic"
+analysis(pnoise fields incrType3) "Automatic"
+analysis(pnoise fields incrType4) "Automatic"
+analysis(pnoise fields incrType5) "Automatic"
+analysis(pnoise fields incrType6) "Automatic"
+analysis(pnoise fields indices) nil
+analysis(pnoise fields initPhase) nil
+analysis(pnoise fields initPhase2) nil
+analysis(pnoise fields initPhase3) nil
+analysis(pnoise fields initPhase4) nil
+analysis(pnoise fields initPhase5) nil
+analysis(pnoise fields initPhase6) nil
+analysis(pnoise fields iprobe) ""
+analysis(pnoise fields iprobe2) ""
+analysis(pnoise fields iprobe3) ""
+analysis(pnoise fields iprobe4) ""
+analysis(pnoise fields iprobe5) ""
+analysis(pnoise fields iprobe6) ""
+analysis(pnoise fields jitterTypeUI) "FM"
+analysis(pnoise fields jitterTypeUI1) "PM"
+analysis(pnoise fields jitterTypeUI12) "PM"
+analysis(pnoise fields jitterTypeUI13) "PM"
+analysis(pnoise fields jitterTypeUI14) "PM"
+analysis(pnoise fields jitterTypeUI15) "PM"
+analysis(pnoise fields jitterTypeUI16) "PM"
+analysis(pnoise fields jitterTypeUI2) "FM"
+analysis(pnoise fields jitterTypeUI3) "FM"
+analysis(pnoise fields jitterTypeUI4) "FM"
+analysis(pnoise fields jitterTypeUI5) "FM"
+analysis(pnoise fields jitterTypeUI6) "FM"
+analysis(pnoise fields labelForDriven) "PM jitter for driven circuit"
+analysis(pnoise fields labelForDriven2) "PM jitter for driven circuit"
+analysis(pnoise fields labelForDriven3) "PM jitter for driven circuit"
+analysis(pnoise fields labelForDriven4) "PM jitter for driven circuit"
+analysis(pnoise fields labelForDriven5) "PM jitter for driven circuit"
+analysis(pnoise fields labelForDriven6) "PM jitter for driven circuit"
+analysis(pnoise fields labelForFmAuto) "FM jitter for autonomous circuit"
+analysis(pnoise fields labelForFmAuto2) "FM jitter for autonomous circuit"
+analysis(pnoise fields labelForFmAuto3) "FM jitter for autonomous circuit"
+analysis(pnoise fields labelForFmAuto4) "FM jitter for autonomous circuit"
+analysis(pnoise fields labelForFmAuto5) "FM jitter for autonomous circuit"
+analysis(pnoise fields labelForFmAuto6) "FM jitter for autonomous circuit"
+analysis(pnoise fields labelForPmAuto) "PM jitter for autonomous circuit"
+analysis(pnoise fields labelForPmAuto2) "PM jitter for autonomous circuit"
+analysis(pnoise fields labelForPmAuto3) "PM jitter for autonomous circuit"
+analysis(pnoise fields labelForPmAuto4) "PM jitter for autonomous circuit"
+analysis(pnoise fields labelForPmAuto5) "PM jitter for autonomous circuit"
+analysis(pnoise fields labelForPmAuto6) "PM jitter for autonomous circuit"
+analysis(pnoise fields lin) ""
+analysis(pnoise fields lin2) ""
+analysis(pnoise fields lin3) ""
+analysis(pnoise fields lin4) ""
+analysis(pnoise fields lin5) ""
+analysis(pnoise fields lin6) ""
+analysis(pnoise fields log) ""
+analysis(pnoise fields log2) ""
+analysis(pnoise fields log3) ""
+analysis(pnoise fields log4) ""
+analysis(pnoise fields log5) ""
+analysis(pnoise fields log6) ""
+analysis(pnoise fields maxcycles) ""
+analysis(pnoise fields maxsideband) "10"
+analysis(pnoise fields measTableData) (nil choices nil value nil)
+analysis(pnoise fields measTableData2) (nil choices nil value nil)
+analysis(pnoise fields measTableData3) (nil choices nil value nil)
+analysis(pnoise fields measTableData4) (nil choices nil value nil)
+analysis(pnoise fields measTableData5) (nil choices nil value nil)
+analysis(pnoise fields measTableData6) (nil choices nil value nil)
+analysis(pnoise fields measTableHead) (nil choices ("#  Event Trig     TrigVal    Targ     TargVal    TD") value nil)
+analysis(pnoise fields measTableHead2) (nil choices ("#  Event Trig     TrigVal    Targ     TargVal    TD") value nil)
+analysis(pnoise fields measTableHead3) (nil choices ("#  Event Trig     TrigVal    Targ     TargVal    TD") value nil)
+analysis(pnoise fields measTableHead4) (nil choices ("#  Event Trig     TrigVal    Targ     TargVal    TD") value nil)
+analysis(pnoise fields measTableHead5) (nil choices ("#  Event Trig     TrigVal    Targ     TargVal    TD") value nil)
+analysis(pnoise fields measTableHead6) (nil choices ("#  Event Trig     TrigVal    Targ     TargVal    TD") value nil)
+analysis(pnoise fields measTableView) (nil choices nil value nil)
+analysis(pnoise fields measTableView2) (nil choices nil value nil)
+analysis(pnoise fields measTableView3) (nil choices nil value nil)
+analysis(pnoise fields measTableView4) (nil choices nil value nil)
+analysis(pnoise fields measTableView5) (nil choices nil value nil)
+analysis(pnoise fields measTableView6) (nil choices nil value nil)
+analysis(pnoise fields n) "/OUT-"
+analysis(pnoise fields n2) ""
+analysis(pnoise fields n3) ""
+analysis(pnoise fields n4) ""
+analysis(pnoise fields n5) ""
+analysis(pnoise fields n6) ""
+analysis(pnoise fields noiseFigure) nil
+analysis(pnoise fields noiseFigure2) nil
+analysis(pnoise fields noiseFigure3) nil
+analysis(pnoise fields noiseFigure4) nil
+analysis(pnoise fields noiseFigure5) nil
+analysis(pnoise fields noiseFigure6) nil
+analysis(pnoise fields noiseout) ("am" "pm" "usb" "lsb")
+analysis(pnoise fields noiseout2) nil
+analysis(pnoise fields noiseout3) nil
+analysis(pnoise fields noiseout4) nil
+analysis(pnoise fields noiseout5) nil
+analysis(pnoise fields noiseout6) nil
+analysis(pnoise fields noiseoutUI) "ALL(AM,PM,USB,LSB)"
+analysis(pnoise fields noiseoutUI2) "USB"
+analysis(pnoise fields noiseoutUI3) "USB"
+analysis(pnoise fields noiseoutUI4) "USB"
+analysis(pnoise fields noiseoutUI5) "USB"
+analysis(pnoise fields noiseoutUI6) "USB"
+analysis(pnoise fields noiseskipcount) ""
+analysis(pnoise fields noiseskipcount2) ""
+analysis(pnoise fields noiseskipcount3) ""
+analysis(pnoise fields noiseskipcount4) ""
+analysis(pnoise fields noiseskipcount5) ""
+analysis(pnoise fields noiseskipcount6) ""
+analysis(pnoise fields noisetimepoints) nil
+analysis(pnoise fields noisetimepoints2) nil
+analysis(pnoise fields noisetimepoints3) nil
+analysis(pnoise fields noisetimepoints4) nil
+analysis(pnoise fields noisetimepoints5) nil
+analysis(pnoise fields noisetimepoints6) nil
+analysis(pnoise fields noisetype) "pmjitter"
+analysis(pnoise fields noisetype2) "timeaverage"
+analysis(pnoise fields noisetype3) "timeaverage"
+analysis(pnoise fields noisetype4) "timeaverage"
+analysis(pnoise fields noisetype5) "timeaverage"
+analysis(pnoise fields noisetype6) "timeaverage"
+analysis(pnoise fields noisetypeUI) ""
+analysis(pnoise fields noisetypeUI1) "jitter"
+analysis(pnoise fields noisetypeUI12) "timeaverage"
+analysis(pnoise fields noisetypeUI13) "timeaverage"
+analysis(pnoise fields noisetypeUI14) "timeaverage"
+analysis(pnoise fields noisetypeUI15) "timeaverage"
+analysis(pnoise fields noisetypeUI16) "timeaverage"
+analysis(pnoise fields noisetypeUI2) "sources"
+analysis(pnoise fields noisetypeUI3) "sources"
+analysis(pnoise fields noisetypeUI4) "sources"
+analysis(pnoise fields noisetypeUI5) "sources"
+analysis(pnoise fields noisetypeUI6) "sources"
+analysis(pnoise fields numberofpoints) ""
+analysis(pnoise fields numberofpoints2) ""
+analysis(pnoise fields numberofpoints3) ""
+analysis(pnoise fields numberofpoints4) ""
+analysis(pnoise fields numberofpoints5) ""
+analysis(pnoise fields numberofpoints6) ""
+analysis(pnoise fields oprobe) ""
+analysis(pnoise fields oprobe2) ""
+analysis(pnoise fields oprobe3) ""
+analysis(pnoise fields oprobe4) ""
+analysis(pnoise fields oprobe5) ""
+analysis(pnoise fields oprobe6) ""
+analysis(pnoise fields order) "1"
+analysis(pnoise fields outType) "voltage"
+analysis(pnoise fields outType2) "probe"
+analysis(pnoise fields outType3) "probe"
+analysis(pnoise fields outType4) "probe"
+analysis(pnoise fields outType5) "probe"
+analysis(pnoise fields outType6) "probe"
+analysis(pnoise fields outputSignal) "/OUT+ /OUT-"
+analysis(pnoise fields outputSignal2) ""
+analysis(pnoise fields outputSignal3) ""
+analysis(pnoise fields outputSignal4) ""
+analysis(pnoise fields outputSignal5) ""
+analysis(pnoise fields outputSignal6) ""
+analysis(pnoise fields p) "/OUT+"
+analysis(pnoise fields p2) ""
+analysis(pnoise fields p3) ""
+analysis(pnoise fields p4) ""
+analysis(pnoise fields p5) ""
+analysis(pnoise fields p6) ""
+analysis(pnoise fields period) ""
+analysis(pnoise fields pnoisemethod) "default"
+analysis(pnoise fields rangeType) "Start-Stop"
+analysis(pnoise fields rangeType2) "Start-Stop"
+analysis(pnoise fields rangeType3) "Start-Stop"
+analysis(pnoise fields rangeType4) "Start-Stop"
+analysis(pnoise fields rangeType5) "Start-Stop"
+analysis(pnoise fields rangeType6) "Start-Stop"
+analysis(pnoise fields refSidebandHint) ""
+analysis(pnoise fields refSidebandHint2) ""
+analysis(pnoise fields refSidebandHint3) ""
+analysis(pnoise fields refSidebandHint4) ""
+analysis(pnoise fields refSidebandHint5) ""
+analysis(pnoise fields refSidebandHint6) ""
+analysis(pnoise fields refsbFreqFrom) "0"
+analysis(pnoise fields refsbFreqFrom2) "0"
+analysis(pnoise fields refsbFreqFrom3) "0"
+analysis(pnoise fields refsbFreqFrom4) "0"
+analysis(pnoise fields refsbFreqFrom5) "0"
+analysis(pnoise fields refsbFreqFrom6) "0"
+analysis(pnoise fields refsbFreqTo) "1e12"
+analysis(pnoise fields refsbFreqTo2) "1e12"
+analysis(pnoise fields refsbFreqTo3) "1e12"
+analysis(pnoise fields refsbFreqTo4) "1e12"
+analysis(pnoise fields refsbFreqTo5) "1e12"
+analysis(pnoise fields refsbFreqTo6) "1e12"
+analysis(pnoise fields refsbListbox) (nil choices nil value nil)
+analysis(pnoise fields refsbListbox2) (nil choices nil value nil)
+analysis(pnoise fields refsbListbox3) (nil choices nil value nil)
+analysis(pnoise fields refsbListbox4) (nil choices nil value nil)
+analysis(pnoise fields refsbListbox5) (nil choices nil value nil)
+analysis(pnoise fields refsbListbox6) (nil choices nil value nil)
+analysis(pnoise fields refsbOrder) "1"
+analysis(pnoise fields refsbOrder2) "1"
+analysis(pnoise fields refsbOrder3) "1"
+analysis(pnoise fields refsbOrder4) "1"
+analysis(pnoise fields refsbOrder5) "1"
+analysis(pnoise fields refsbOrder6) "1"
+analysis(pnoise fields refsbSelect) "Enter in field"
+analysis(pnoise fields refsbSelect2) "Enter in field"
+analysis(pnoise fields refsbSelect3) "Enter in field"
+analysis(pnoise fields refsbSelect4) "Enter in field"
+analysis(pnoise fields refsbSelect5) "Enter in field"
+analysis(pnoise fields refsbSelect6) "Enter in field"
+analysis(pnoise fields refsbTitle) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle2) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle3) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle4) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle5) (nil choices nil value nil)
+analysis(pnoise fields refsbTitle6) (nil choices nil value nil)
+analysis(pnoise fields refsideband) ""
+analysis(pnoise fields refsideband2) ""
+analysis(pnoise fields refsideband3) ""
+analysis(pnoise fields refsideband4) ""
+analysis(pnoise fields refsideband5) ""
+analysis(pnoise fields refsideband6) ""
+analysis(pnoise fields relharmnum) "1"
+analysis(pnoise fields relharmnum2) ""
+analysis(pnoise fields relharmnum3) ""
+analysis(pnoise fields relharmnum4) ""
+analysis(pnoise fields relharmnum5) ""
+analysis(pnoise fields relharmnum6) ""
+analysis(pnoise fields sampleNum) ""
+analysis(pnoise fields sampleNum2) ""
+analysis(pnoise fields sampleNum3) ""
+analysis(pnoise fields sampleNum4) ""
+analysis(pnoise fields sampleNum5) ""
+analysis(pnoise fields sampleNum6) ""
+analysis(pnoise fields sampledOutputNnode) ""
+analysis(pnoise fields sampledOutputNnode2) ""
+analysis(pnoise fields sampledOutputNnode3) ""
+analysis(pnoise fields sampledOutputNnode4) ""
+analysis(pnoise fields sampledOutputNnode5) ""
+analysis(pnoise fields sampledOutputNnode6) ""
+analysis(pnoise fields sampledOutputPnode) ""
+analysis(pnoise fields sampledOutputPnode2) ""
+analysis(pnoise fields sampledOutputPnode3) ""
+analysis(pnoise fields sampledOutputPnode4) ""
+analysis(pnoise fields sampledOutputPnode5) ""
+analysis(pnoise fields sampledOutputPnode6) ""
+analysis(pnoise fields sampledOutputProbe) ""
+analysis(pnoise fields sampledOutputProbe2) ""
+analysis(pnoise fields sampledOutputProbe3) ""
+analysis(pnoise fields sampledOutputProbe4) ""
+analysis(pnoise fields sampledOutputProbe5) ""
+analysis(pnoise fields sampledOutputProbe6) ""
+analysis(pnoise fields sampledOutputType) "voltage"
+analysis(pnoise fields sampledOutputType2) "voltage"
+analysis(pnoise fields sampledOutputType3) "voltage"
+analysis(pnoise fields sampledOutputType4) "voltage"
+analysis(pnoise fields sampledOutputType5) "voltage"
+analysis(pnoise fields sampledOutputType6) "voltage"
+analysis(pnoise fields sampleratio) ""
+analysis(pnoise fields sampleratio2) ""
+analysis(pnoise fields sampleratio3) ""
+analysis(pnoise fields sampleratio4) ""
+analysis(pnoise fields sampleratio5) ""
+analysis(pnoise fields sampleratio6) ""
+analysis(pnoise fields selFreqFrom) "0"
+analysis(pnoise fields selFreqTo) "1e12"
+analysis(pnoise fields separatenoise) ""
+analysis(pnoise fields separatenoise2) ""
+analysis(pnoise fields separatenoise3) ""
+analysis(pnoise fields separatenoise4) ""
+analysis(pnoise fields separatenoise5) ""
+analysis(pnoise fields separatenoise6) ""
+analysis(pnoise fields separatenoiseUI) nil
+analysis(pnoise fields separatenoiseUI2) nil
+analysis(pnoise fields separatenoiseUI3) nil
+analysis(pnoise fields separatenoiseUI4) nil
+analysis(pnoise fields separatenoiseUI5) nil
+analysis(pnoise fields separatenoiseUI6) nil
+analysis(pnoise fields side) "upper"
+analysis(pnoise fields sidebands) nil
+analysis(pnoise fields sleepTime) ""
+analysis(pnoise fields sleepTime2) ""
+analysis(pnoise fields sleepTime3) ""
+analysis(pnoise fields sleepTime4) ""
+analysis(pnoise fields sleepTime5) ""
+analysis(pnoise fields sleepTime6) ""
+analysis(pnoise fields span) ""
+analysis(pnoise fields span2) ""
+analysis(pnoise fields span3) ""
+analysis(pnoise fields span4) ""
+analysis(pnoise fields span5) ""
+analysis(pnoise fields span6) ""
+analysis(pnoise fields specificPoints) nil
+analysis(pnoise fields specificPoints2) nil
+analysis(pnoise fields specificPoints3) nil
+analysis(pnoise fields specificPoints4) nil
+analysis(pnoise fields specificPoints5) nil
+analysis(pnoise fields specificPoints6) nil
+analysis(pnoise fields start) "1k"
+analysis(pnoise fields start2) ""
+analysis(pnoise fields start3) ""
+analysis(pnoise fields start4) ""
+analysis(pnoise fields start5) ""
+analysis(pnoise fields start6) ""
+analysis(pnoise fields step) ""
+analysis(pnoise fields step2) ""
+analysis(pnoise fields step3) ""
+analysis(pnoise fields step4) ""
+analysis(pnoise fields step5) ""
+analysis(pnoise fields step6) ""
+analysis(pnoise fields stepTypeLin) "Step Size"
+analysis(pnoise fields stepTypeLin2) "Step Size"
+analysis(pnoise fields stepTypeLin3) "Step Size"
+analysis(pnoise fields stepTypeLin4) "Step Size"
+analysis(pnoise fields stepTypeLin5) "Step Size"
+analysis(pnoise fields stepTypeLin6) "Step Size"
+analysis(pnoise fields stepTypeLog) "Points Per Decade"
+analysis(pnoise fields stepTypeLog2) "Points Per Decade"
+analysis(pnoise fields stepTypeLog3) "Points Per Decade"
+analysis(pnoise fields stepTypeLog4) "Points Per Decade"
+analysis(pnoise fields stepTypeLog5) "Points Per Decade"
+analysis(pnoise fields stepTypeLog6) "Points Per Decade"
+analysis(pnoise fields stop) "100M"
+analysis(pnoise fields stop2) ""
+analysis(pnoise fields stop3) ""
+analysis(pnoise fields stop4) ""
+analysis(pnoise fields stop5) ""
+analysis(pnoise fields stop6) ""
+analysis(pnoise fields supportmultijitter) "yes"
+analysis(pnoise fields sweepChange) nil
+analysis(pnoise fields sweepChange2) nil
+analysis(pnoise fields sweepChange3) nil
+analysis(pnoise fields sweepChange4) nil
+analysis(pnoise fields sweepChange5) nil
+analysis(pnoise fields sweepChange6) nil
+analysis(pnoise fields sweeptype) "relative"
+analysis(pnoise fields sweeptype2) "default"
+analysis(pnoise fields sweeptype3) "default"
+analysis(pnoise fields sweeptype4) "default"
+analysis(pnoise fields sweeptype5) "default"
+analysis(pnoise fields sweeptype6) "default"
+analysis(pnoise fields targetEdgeDir) "rise"
+analysis(pnoise fields targetEdgeDir2) "rise"
+analysis(pnoise fields targetEdgeDir3) "rise"
+analysis(pnoise fields targetEdgeDir4) "rise"
+analysis(pnoise fields targetEdgeDir5) "rise"
+analysis(pnoise fields targetEdgeDir6) "rise"
+analysis(pnoise fields targetEdgeNum) ""
+analysis(pnoise fields targetEdgeNum2) ""
+analysis(pnoise fields targetEdgeNum3) ""
+analysis(pnoise fields targetEdgeNum4) ""
+analysis(pnoise fields targetEdgeNum5) ""
+analysis(pnoise fields targetEdgeNum6) ""
+analysis(pnoise fields targetNnode) ""
+analysis(pnoise fields targetNnode2) ""
+analysis(pnoise fields targetNnode3) ""
+analysis(pnoise fields targetNnode4) ""
+analysis(pnoise fields targetNnode5) ""
+analysis(pnoise fields targetNnode6) ""
+analysis(pnoise fields targetPnode) ""
+analysis(pnoise fields targetPnode2) ""
+analysis(pnoise fields targetPnode3) ""
+analysis(pnoise fields targetPnode4) ""
+analysis(pnoise fields targetPnode5) ""
+analysis(pnoise fields targetPnode6) ""
+analysis(pnoise fields targetProbe) ""
+analysis(pnoise fields targetProbe2) ""
+analysis(pnoise fields targetProbe3) ""
+analysis(pnoise fields targetProbe4) ""
+analysis(pnoise fields targetProbe5) ""
+analysis(pnoise fields targetProbe6) ""
+analysis(pnoise fields targetThresholdValue) ""
+analysis(pnoise fields targetThresholdValue2) ""
+analysis(pnoise fields targetThresholdValue3) ""
+analysis(pnoise fields targetThresholdValue4) ""
+analysis(pnoise fields targetThresholdValue5) ""
+analysis(pnoise fields targetThresholdValue6) ""
+analysis(pnoise fields targetType) "voltage"
+analysis(pnoise fields targetType2) "voltage"
+analysis(pnoise fields targetType3) "voltage"
+analysis(pnoise fields targetType4) "voltage"
+analysis(pnoise fields targetType5) "voltage"
+analysis(pnoise fields targetType6) "voltage"
+analysis(pnoise fields tdnoise) "Noise Skip Count"
+analysis(pnoise fields tdnoise2) "Noise Skip Count"
+analysis(pnoise fields tdnoise3) "Noise Skip Count"
+analysis(pnoise fields tdnoise4) "Noise Skip Count"
+analysis(pnoise fields tdnoise5) "Noise Skip Count"
+analysis(pnoise fields tdnoise6) "Noise Skip Count"
+analysis(pnoise fields thresholdvalue) "0.5"
+analysis(pnoise fields thresholdvalue2) ""
+analysis(pnoise fields thresholdvalue3) ""
+analysis(pnoise fields thresholdvalue4) ""
+analysis(pnoise fields thresholdvalue5) ""
+analysis(pnoise fields thresholdvalue6) ""
+analysis(pnoise fields timingevent) "Edge Crossing"
+analysis(pnoise fields timingevent2) "Edge Crossing"
+analysis(pnoise fields timingevent3) "Edge Crossing"
+analysis(pnoise fields timingevent4) "Edge Crossing"
+analysis(pnoise fields timingevent5) "Edge Crossing"
+analysis(pnoise fields timingevent6) "Edge Crossing"
+analysis(pnoise fields triggerEdgeDir) "rise"
+analysis(pnoise fields triggerEdgeDir2) "rise"
+analysis(pnoise fields triggerEdgeDir3) "rise"
+analysis(pnoise fields triggerEdgeDir4) "rise"
+analysis(pnoise fields triggerEdgeDir5) "rise"
+analysis(pnoise fields triggerEdgeDir6) "rise"
+analysis(pnoise fields triggerEdgeNum) ""
+analysis(pnoise fields triggerEdgeNum2) ""
+analysis(pnoise fields triggerEdgeNum3) ""
+analysis(pnoise fields triggerEdgeNum4) ""
+analysis(pnoise fields triggerEdgeNum5) ""
+analysis(pnoise fields triggerEdgeNum6) ""
+analysis(pnoise fields triggerNnode) ""
+analysis(pnoise fields triggerNnode2) ""
+analysis(pnoise fields triggerNnode3) ""
+analysis(pnoise fields triggerNnode4) ""
+analysis(pnoise fields triggerNnode5) ""
+analysis(pnoise fields triggerNnode6) ""
+analysis(pnoise fields triggerPnode) ""
+analysis(pnoise fields triggerPnode2) ""
+analysis(pnoise fields triggerPnode3) ""
+analysis(pnoise fields triggerPnode4) ""
+analysis(pnoise fields triggerPnode5) ""
+analysis(pnoise fields triggerPnode6) ""
+analysis(pnoise fields triggerProbe) ""
+analysis(pnoise fields triggerProbe2) ""
+analysis(pnoise fields triggerProbe3) ""
+analysis(pnoise fields triggerProbe4) ""
+analysis(pnoise fields triggerProbe5) ""
+analysis(pnoise fields triggerProbe6) ""
+analysis(pnoise fields triggerThresholdValue) ""
+analysis(pnoise fields triggerThresholdValue2) ""
+analysis(pnoise fields triggerThresholdValue3) ""
+analysis(pnoise fields triggerThresholdValue4) ""
+analysis(pnoise fields triggerThresholdValue5) ""
+analysis(pnoise fields triggerThresholdValue6) ""
+analysis(pnoise fields triggerType) "voltage"
+analysis(pnoise fields triggerType2) "voltage"
+analysis(pnoise fields triggerType3) "voltage"
+analysis(pnoise fields triggerType4) "voltage"
+analysis(pnoise fields triggerType5) "voltage"
+analysis(pnoise fields triggerType6) "voltage"
+analysis(pnoise fields useDiscrete) nil
+analysis(pnoise fields useDiscrete2) nil
+analysis(pnoise fields useDiscrete3) nil
+analysis(pnoise fields useDiscrete4) nil
+analysis(pnoise fields useDiscrete5) nil
+analysis(pnoise fields useDiscrete6) nil
+analysis(pnoise fields useDiscreteCorr) nil
+analysis(pnoise fields useDiscreteNoise) nil
+analysis(pnoise fields useDiscreteNoise2) nil
+analysis(pnoise fields useDiscreteNoise3) nil
+analysis(pnoise fields useDiscreteNoise4) nil
+analysis(pnoise fields useDiscreteNoise5) nil
+analysis(pnoise fields useDiscreteNoise6) nil
+analysis(pnoise fields useFile) nil
+analysis(pnoise fields useFile2) nil
+analysis(pnoise fields useFile3) nil
+analysis(pnoise fields useFile4) nil
+analysis(pnoise fields useFile5) nil
+analysis(pnoise fields useFile6) nil
+analysis(pnoise fields values) nil
+analysis(pnoise fields values2) nil
+analysis(pnoise fields values3) nil
+analysis(pnoise fields values4) nil
+analysis(pnoise fields values5) nil
+analysis(pnoise fields values6) nil
+analysis(pnoise fields valuesfile) ""
+analysis(pnoise fields valuesfile2) ""
+analysis(pnoise fields valuesfile3) ""
+analysis(pnoise fields valuesfile4) ""
+analysis(pnoise fields valuesfile5) ""
+analysis(pnoise fields valuesfile6) ""
+analysis(pnoise options additionalParams) ""
+analysis(pnoise options annotate) "status"
+analysis(pnoise options augmented) ""
+analysis(pnoise options cyclo2txtfile) ""
+analysis(pnoise options gear_order) ""
+analysis(pnoise options hbprecond_solver) ""
+analysis(pnoise options lnsolver) ""
+analysis(pnoise options lorentzian) ""
+analysis(pnoise options nestlvl) ""
+analysis(pnoise options osc_accuracy) ""
+analysis(pnoise options osc_version) ""
+analysis(pnoise options oscsolver) ""
+analysis(pnoise options ppv) ""
+analysis(pnoise options relativeTol) ""
+analysis(pnoise options resgmrescycle) ""
+analysis(pnoise options save) ""
+analysis(pnoise options saveallsidebands) ""
+analysis(pnoise options solver) ""
+analysis(pnoise options tolerance) ""
+analysis(pss fields Aindices) nil
+analysis(pss fields FBFund) ""
+analysis(pss fields FBFundCalc) nil
+analysis(pss fields FBHeadListBox) (nil choices ("Name         Expr         Value        SrcId ") value nil)
+analysis(pss fields FBListBox) (nil choices (" ") value nil)
+analysis(pss fields HBPartListBox) (nil choices nil value nil)
+analysis(pss fields HBPartListPssTitle) (nil choices ("           Instances          Harms      Funds") value nil)
+analysis(pss fields HBPartListQpssTitle) (nil choices ("           Instances          Harms      FundNames") value nil)
+analysis(pss fields PssTranMode) "Yes"
+analysis(pss fields PssTranSteady) nil
+analysis(pss fields arrayCoeffs) (nil choices nil value nil)
+analysis(pss fields autoCalc) nil
+analysis(pss fields autosteady) "no"
+analysis(pss fields autotstab) "no"
+analysis(pss fields center) ""
+analysis(pss fields center2) ""
+analysis(pss fields center3) ""
+analysis(pss fields dec) ""
+analysis(pss fields dec2) ""
+analysis(pss fields dec3) ""
+analysis(pss fields designVar) ""
+analysis(pss fields designVar2) ""
+analysis(pss fields designVar3) ""
+analysis(pss fields dev) ""
+analysis(pss fields dev2) ""
+analysis(pss fields dev3) ""
+analysis(pss fields devParam) ""
+analysis(pss fields deviceParam) ""
+analysis(pss fields deviceParam2) ""
+analysis(pss fields deviceParam3) ""
+analysis(pss fields dynHeadListBox) (nil choices ("#         time                     value") value nil)
+analysis(pss fields dynParamB) nil
+analysis(pss fields dynParamListBox) (nil choices nil value nil)
+analysis(pss fields dynchoice) "Parameter file"
+analysis(pss fields dynparam) ""
+analysis(pss fields enable) (nil)
+analysis(pss fields engine) "Shooting"
+analysis(pss fields errpreset) "conservative"
+analysis(pss fields flexbalance) "no"
+analysis(pss fields freqName) ""
+analysis(pss fields freqPeriod) "Beat Frequency"
+analysis(pss fields freqVal) ""
+analysis(pss fields freqVar) "no"
+analysis(pss fields freqVar2) "no"
+analysis(pss fields freqVar3) "no"
+analysis(pss fields fund) "4G"
+analysis(pss fields fundListBox) (nil choices (" ") value nil)
+analysis(pss fields harmCoeffs) nil
+analysis(pss fields harmListMem) nil
+analysis(pss fields harmonics) "Number of harmonics"
+analysis(pss fields harms) "100"
+analysis(pss fields harmsAndFreqs) (nil choices nil value nil)
+analysis(pss fields harmsAndFreqsTitle) (nil choices ("Index Frequency") value nil)
+analysis(pss fields harmsAndFreqsTitle2) (nil choices ("Index Frequency") value nil)
+analysis(pss fields harmsvec) nil
+analysis(pss fields hbhomotopy) "default"
+analysis(pss fields hbpartition_defs) nil
+analysis(pss fields hbpartition_fundnames) nil
+analysis(pss fields hbpartition_funds) nil
+analysis(pss fields hbpartition_harms) nil
+analysis(pss fields incrType) "Linear"
+analysis(pss fields incrType2) "Linear"
+analysis(pss fields incrType3) "Linear"
+analysis(pss fields indices) nil
+analysis(pss fields lin) ""
+analysis(pss fields lin2) ""
+analysis(pss fields lin3) ""
+analysis(pss fields loadinst) ""
+analysis(pss fields loadinst_info) ""
+analysis(pss fields loadpullB) nil
+analysis(pss fields log) ""
+analysis(pss fields log2) ""
+analysis(pss fields log3) ""
+analysis(pss fields lsspWizardInfo) ""
+analysis(pss fields lsspWizardState) "Disable"
+analysis(pss fields maxHarms) ""
+analysis(pss fields mod) ""
+analysis(pss fields mod2) ""
+analysis(pss fields mod3) ""
+analysis(pss fields modelParam) ""
+analysis(pss fields modelParam2) ""
+analysis(pss fields modelParam3) ""
+analysis(pss fields n) "/OUT-"
+analysis(pss fields order) "1"
+analysis(pss fields oscMethodCheck) nil
+analysis(pss fields oscTuneCheck) nil
+analysis(pss fields oscana) t
+analysis(pss fields oscic) "lin"
+analysis(pss fields oscicMethod) t
+analysis(pss fields oscmethod) "onetier"
+analysis(pss fields oversamplefactor) ""
+analysis(pss fields p) "/OUT+"
+analysis(pss fields param) ""
+analysis(pss fields param2) ""
+analysis(pss fields param3) ""
+analysis(pss fields paramListBox) (nil choices ("#  Name     Expr       Value     Signal     SrcId ") value nil)
+analysis(pss fields paramTime) ""
+analysis(pss fields paramValue) ""
+analysis(pss fields param_file) ""
+analysis(pss fields param_vec) nil
+analysis(pss fields partFunds) ""
+analysis(pss fields partHarms) ""
+analysis(pss fields partInsts) nil
+analysis(pss fields period) ""
+analysis(pss fields phi) ""
+analysis(pss fields phi_info) ""
+analysis(pss fields pinnode) ""
+analysis(pss fields pinnodemag) ""
+analysis(pss fields pinnodeminus) ""
+analysis(pss fields pinnoderank) ""
+analysis(pss fields rangeType) "Start-Stop"
+analysis(pss fields rangeType2) "Start-Stop"
+analysis(pss fields rangeType3) "Start-Stop"
+analysis(pss fields restart) ""
+analysis(pss fields rho) ""
+analysis(pss fields rho_info) ""
+analysis(pss fields saveinit) ""
+analysis(pss fields saveinitHB) ""
+analysis(pss fields selFreqFrom) "0"
+analysis(pss fields selFreqTo) "1e12"
+analysis(pss fields semiauto_freq) ""
+analysis(pss fields signalLevel) "Large"
+analysis(pss fields sigpartB) nil
+analysis(pss fields span) ""
+analysis(pss fields span2) ""
+analysis(pss fields span3) ""
+analysis(pss fields srcId) ""
+analysis(pss fields start) ""
+analysis(pss fields start2) ""
+analysis(pss fields start3) ""
+analysis(pss fields step2) ""
+analysis(pss fields step3) ""
+analysis(pss fields stepTypeLin) "Step Size"
+analysis(pss fields stepTypeLin2) "Step Size"
+analysis(pss fields stepTypeLin3) "Step Size"
+analysis(pss fields stepTypeLog) "Points Per Decade"
+analysis(pss fields stepTypeLog2) "Points Per Decade"
+analysis(pss fields stepTypeLog3) "Points Per Decade"
+analysis(pss fields stimName) ""
+analysis(pss fields stop) ""
+analysis(pss fields stop2) ""
+analysis(pss fields stop3) ""
+analysis(pss fields sweep) "Variable"
+analysis(pss fields sweep2) "Variable"
+analysis(pss fields sweep3) "Variable"
+analysis(pss fields sweepB) nil
+analysis(pss fields sweepB2) nil
+analysis(pss fields sweepB3) nil
+analysis(pss fields sweepChange) nil
+analysis(pss fields sweepChange2) nil
+analysis(pss fields sweepChange3) nil
+analysis(pss fields sweepLevel) "1"
+analysis(pss fields sweepOrderLabel) ""
+analysis(pss fields sweepStep) ""
+analysis(pss fields sweepvar_info) ""
+analysis(pss fields tstab) "20n"
+analysis(pss fields tstabHB) "20n"
+analysis(pss fields tuneParam) "Variable"
+analysis(pss fields tuneRangeMax) ""
+analysis(pss fields tuneRangeMin) ""
+analysis(pss fields tuneStepID) "TuneStep Size"
+analysis(pss fields tuneVar) ""
+analysis(pss fields tunedev) ""
+analysis(pss fields tunelin) ""
+analysis(pss fields tuneparam) ""
+analysis(pss fields tunerange) nil
+analysis(pss fields tunestep) ""
+analysis(pss fields tunevalues) nil
+analysis(pss fields useDiscrete) nil
+analysis(pss fields useDiscrete2) nil
+analysis(pss fields useDiscrete3) nil
+analysis(pss fields useDiscreteTune) nil
+analysis(pss fields useDiscreteTuneRange) nil
+analysis(pss fields useTuneRange) nil
+analysis(pss fields values) nil
+analysis(pss fields values2) nil
+analysis(pss fields values3) nil
+analysis(pss fields z0) "50"
+analysis(pss options additionalParams) ""
+analysis(pss options annotate) "status"
+analysis(pss options backtracking) ""
+analysis(pss options checkpss) ""
+analysis(pss options cmin) ""
+analysis(pss options compression) ""
+analysis(pss options envlpname) "envlp"
+analysis(pss options fdharms) ""
+analysis(pss options finitediff) ""
+analysis(pss options fullpssvec) ""
+analysis(pss options hbhighq) "yes"
+analysis(pss options highorder) ""
+analysis(pss options ic) ""
+analysis(pss options inexactNewton) ""
+analysis(pss options itres) ""
+analysis(pss options lnsolver) ""
+analysis(pss options lteratio) ""
+analysis(pss options maxacfreq) ""
+analysis(pss options maxiters) ""
+analysis(pss options maxorder) ""
+analysis(pss options maxperiods) ""
+analysis(pss options maxstep) ""
+analysis(pss options memoryestimate) ""
+analysis(pss options method) "gear2only"
+analysis(pss options nestlvl) ""
+analysis(pss options oppoint) ""
+analysis(pss options outputtype) ""
+analysis(pss options ppv) ""
+analysis(pss options psaratio) ""
+analysis(pss options readic) ""
+analysis(pss options readns) ""
+analysis(pss options readpss) ""
+analysis(pss options recover) ""
+analysis(pss options relref) ""
+analysis(pss options resgmrescycle) ""
+analysis(pss options save) ""
+analysis(pss options saveclock) ""
+analysis(pss options savefile) ""
+analysis(pss options saveperiod) ""
+analysis(pss options savetime) nil
+analysis(pss options skipcount) ""
+analysis(pss options skipdc) ""
+analysis(pss options skipstart) ""
+analysis(pss options skipstop) ""
+analysis(pss options steadyratio) ""
+analysis(pss options step) ""
+analysis(pss options strobedelay) ""
+analysis(pss options strobeperiod) ""
+analysis(pss options swapfile) ""
+analysis(pss options tstabenvlp) ""
+analysis(pss options tstabmethod) ""
+analysis(pss options tstart) ""
+analysis(pss options write) ""
+analysis(pss options writefinal) ""
+analysis(pss options writepss) ""
+analysis(tran fields binnum) "16"
+analysis(tran fields calcStop) ""
+analysis(tran fields dynHeadListBox) (nil choices ("#         time                     value") value nil)
+analysis(tran fields dynParam) ""
+analysis(tran fields dynParamB) nil
+analysis(tran fields dynParamChoice) "User-defined"
+analysis(tran fields dynParamInput) ""
+analysis(tran fields dynParamListBox) (nil choices nil value nil)
+analysis(tran fields dynParamSetChoice) "User-defined"
+analysis(tran fields dynParamSetInput) ""
+analysis(tran fields dynParamSetParam) nil
+analysis(tran fields dynParamSetTab) nil
+analysis(tran fields dynParamTab) nil
+analysis(tran fields dynamicChoice) "Vector"
+analysis(tran fields dynamicParameter) "Parameter"
+analysis(tran fields dynchoice) "Parameter vector"
+analysis(tran fields dynparam) ""
+analysis(tran fields enable) (t)
+analysis(tran fields errpreset) ""
+analysis(tran fields noisefmax) "100G"
+analysis(tran fields noisefmin) "1M"
+analysis(tran fields noiseinst) ""
+analysis(tran fields noiseonoff) ""
+analysis(tran fields noiseruns) "100"
+analysis(tran fields noisescale) ""
+analysis(tran fields noiseseed) "1"
+analysis(tran fields noisetmin) ""
+analysis(tran fields noiseupdate) ""
+analysis(tran fields param) ""
+analysis(tran fields paramTime) ""
+analysis(tran fields paramValue) ""
+analysis(tran fields param_file) ""
+analysis(tran fields param_vec) nil
+analysis(tran fields stop) "10n"
+analysis(tran fields tranNoise) "Transient Noise"
+analysis(tran fields tranNoiseMultiRuns) ""
+analysis(tran fields transtrobe) ""
+analysis(tran options FinalOpOtherParameters) ""
+analysis(tran options InfotimesOtherParameters) ""
+analysis(tran options acnames) nil
+analysis(tran options actimes) nil
+analysis(tran options additionalParams) ""
+analysis(tran options annotate) "status"
+analysis(tran options annotatedigits) "4"
+analysis(tran options captab) nil
+analysis(tran options cmin) ""
+analysis(tran options compiabstol) ""
+analysis(tran options complvl) ""
+analysis(tran options compreltol) ""
+analysis(tran options compression) ""
+analysis(tran options compvabstol) ""
+analysis(tran options detail) "node"
+analysis(tran options emirfile) ""
+analysis(tran options emirformat) ""
+analysis(tran options emirstart) ""
+analysis(tran options emirstop) ""
+analysis(tran options finalTimeOp) t
+analysis(tran options flushofftime) ""
+analysis(tran options flushpoints) ""
+analysis(tran options flushtime) ""
+analysis(tran options ic) ""
+analysis(tran options infoname) nil
+analysis(tran options infotimes) nil
+analysis(tran options linearic) ""
+analysis(tran options lteratio) ""
+analysis(tran options maxiters) "5"
+analysis(tran options maxstep) ""
+analysis(tran options method) ""
+analysis(tran options minstep) ""
+analysis(tran options nestlvl) ""
+analysis(tran options oppoint) ""
+analysis(tran options oscfreq) ""
+analysis(tran options outputstart) ""
+analysis(tran options readic) ""
+analysis(tran options readns) ""
+analysis(tran options recover) ""
+analysis(tran options relref) ""
+analysis(tran options restart) ""
+analysis(tran options save) ""
+analysis(tran options saveclock) ""
+analysis(tran options savefile) ""
+analysis(tran options saveperiod) ""
+analysis(tran options savetime) nil
+analysis(tran options skipcount) ""
+analysis(tran options skipdc) ""
+analysis(tran options skipstart) ""
+analysis(tran options skipstop) ""
+analysis(tran options sort) "name"
+analysis(tran options start) ""
+analysis(tran options step) ""
+analysis(tran options strobedelay) ""
+analysis(tran options strobeoutput) ""
+analysis(tran options strobeperiod) ""
+analysis(tran options threshold) "0.0"
+analysis(tran options timed) nil
+analysis(tran options write) "spectre.ic"
+analysis(tran options writefinal) "spectre.fc"

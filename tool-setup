@@ -1,0 +1,71 @@
+
+# Synopsys setup
+# --------------
+#source /usr/apps/synopsys/syn-2010/SETUP
+#setenv SYNOPSYS /usr/apps/synopsys/syn_vC-2009.06
+#source /usr/apps/synopsys/syn_vC-2009.06/SETUP
+#setenv SNPSLMD_LICENSE_FILE 1784@lmserv.ee.ucla.edu
+#design vision
+#set path = ($path /usr/apps/synopsys/syn_vC-2009.06/linux/syn/bin)
+#set path = ($path /usr/apps/synopsys/astro_vX-2005.09/bin)
+
+#setenv PATH ${PATH}:/w/apps/apps.11/mentor/modeltech/bin/
+
+# Cadence setup
+# -------------
+#setenv CDSHOME /usr/apps/cadence2/IC5141/linux
+#source /usr/apps/cadence2/IC5141/SETUP
+#source /usr/apps/cadence2/SOC81/SETUP
+#source /usr/apps/mentor/SETUP.calibre2008
+
+#setenv CDSHOME /w/apps3/Cadence/IC615
+#source /w/apps3/Cadence/IC615/SETUP
+
+source /usr/apps/cadence/SETUP.IUS82
+
+setenv CDSHOME /w/apps3/Cadence/IC617
+source /w/apps3/Cadence/IC617/SETUP
+
+source /w/apps3/Cadence/ASSURA41/SETUP
+#source /w/apps3/Cadence/ASSURA415-617/SETUP
+
+#source /w/apps3/Cadence/EDI110/SETUP
+#source /w/apps3/Cadence/ETS110/SETUP
+#source /w/apps3/Cadence/RC111/SETUP
+#source /w/apps3/Cadence/INCISIV111/SETUP
+#source /w/apps3/Cadence/ANLS62/SETUP
+
+#source /w/apps3/Cadence/MMSIM111/SETUP
+source /w/apps3/Cadence/MMSIM151/SETUP
+set path = (/w/apps3/Cadence/MMSIM151/bin $path)
+
+#source /w/apps3/Cadence/SPECTRE161/SETUP
+#setenv CDS_AHDLCMI_ENABLE NO
+
+#source /w/apps3/Cadence/CONFRML111/SETUP
+#source /w/apps3/Cadence/SPB165/SETUP
+#source /w/apps3/Cadence/CTOS112/SETUP
+
+source /w/apps3/Cadence/EXT171/SETUP
+
+setenv ASSURAHOME /w/apps3/Cadence/ASSURA41
+#setenv ASSURAHOME /w/apps3/Cadence/ASSURA415-617
+
+#set path=($ASSURAHOME/tools/dfII/bin $ASSURAHOME/tools/bin $ASSURAHOME/tools/assura/bin $path)
+set path=($ASSURAHOME/tools.lnx86/dfII/bin $ASSURAHOME/tools.lnx86/bin $ASSURAHOME/tools.lnx86/assura/bin $path)
+
+#setenv QRC_HOME /w/apps3/Cadence/EXT171/tools
+setenv QRC_HOME /usr/apps/cadence2/EXT81/linux
+set path=($QRC_HOME/bin $path)
+
+# Mentor Setup
+#source /usr/apps/mentor/modelsim-6.2b/SETUP
+source /w/apps3/Mentor/ModelsimSE/v10.1c/SETUP
+source /usr/apps/mentor/Calibre/v2011.4_14.13/SETUP
+
+
+
+
+setenv SPECTRE_DEFAULTS -E
+setenv CDS_Netlisting_Mode Analog
+setenv CDS_AUTO_64BIT all
