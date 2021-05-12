@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-unmapped -mpssession virtuoso6480 -mpshost eeapps04.seas.ucla.edu 
+\o Arguments:		-unmapped -mpssession virtuoso1337 -mpshost eeapps04.seas.ucla.edu 
 \o Working Directory:	eeapps04.seas.ucla.edu:/w/home.15/ee/ugrad/kennyc/ee215e
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -12,61 +12,122 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
+\w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
+\w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
 \a nrResizeWindow(cdsLibManager list(8 31 856 462))
-\a nrResizeWindow(cdsLibManager list(43 435 856 462))
-\a nrResizeWindow(cdsLibManager list(20 918 856 462))
-\a cdsLibManager->FileNewLibButton->value = t
-\a nrSetWindowVisibility(NewLibShell "show")
-\a NewLibShell->QLineEdit2->value = "/w/home.15/ee/ugrad/kennyc/ee215e/"
-\a nrSetCurrentWindow(NewLibShell)
-\a nrSetCurrentWindow(NewLibShell->subDialog)
-\a nrResizeWindow(NewLibShell list(185 830 507 559))
-\a NewLibShell->newLibNameText->value = "Project"
-\a nrDialogAccept(NewLibShell)
-\a NewLibShell->newLibOKButton->value = t
-\a NewLibShell->subDialog->value = '("/w/home.15/ee/ugrad/kennyc/ee215e" "/w/home.15/ee/ugrad/kennyc/ee215e/")
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a NewLibShell->newLibNameText->value = "Project"
-\o Created new library "Project" at /w/home.15/ee/ugrad/kennyc/ee215e/Project.
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(297 1043 282 133))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(5 178 856 462))
+\a nrResizeWindow(cdsLibManager list(6 135 856 462))
+\a cdsLibManager->libListBox->value = "gsclib090"
+\a cdsLibManager->libLineEdit->value = "gsclib090"
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a lmgrLogShowPopup("mainListPopup1" 139 47 2 "")
-\a cdsLibManager->FileNewCVButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(4 932 856 462))
+\a cdsLibManager->cellListBox->value = "ChargePump"
+\a cdsLibManager->cellLineEdit->value = "ChargePump"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
+\w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "VCO"
-\a cdsLibManager->cellLineEdit->value = "VCO"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "VCO"
-\a cdsLibManager->cellLineEdit->value = "VCO"
+\a cdsLibManager->cellListBox->value = "ChargePump"
+\a cdsLibManager->cellLineEdit->value = "ChargePump"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
+\w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "VCO"
-\a cdsLibManager->cellLineEdit->value = "VCO"
-\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "ChargePump"
+\a cdsLibManager->cellLineEdit->value = "ChargePump"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "VCO"
-\a cdsLibManager->cellLineEdit->value = "VCO"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
+\w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "ChargePump"
+\a cdsLibManager->cellLineEdit->value = "ChargePump"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
+\w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "ChargePump"
+\a cdsLibManager->cellLineEdit->value = "ChargePump"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
+\w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "ChargePump"
+\a cdsLibManager->cellLineEdit->value = "ChargePump"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \a nrResizeWindow(cdsLibManager list(0 0 856 462))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(6 135 856 462))
+\a _lmgrCloseIconify("cdsLibManager" 0)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a nrSetWindowVisibility(cdsLibManager "hide")

@@ -307,7 +307,7 @@ list(tmp1 tmp2)
 tmp36 = (let
 (tmp1 tmp2)
 tmp1 = 'pwr
-tmp2 = "all"
+tmp2 = ""
 list(tmp1 tmp2)
 )
 tmp37 = (let
