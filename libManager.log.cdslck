@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      kennyc
+HostName                       eeapps04.seas.ucla.edu
+ProcessIdentifier              29114
+ProcessCreationTime_UTC        1621716367
+ProcessCreationTime_Readable   Sat May 22 13:46:07 2021 PDT
+AppIdentifier                  /w/apps3/Cadence/IC617/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /w/home.15/ee/ugrad/kennyc/ee215e/libManager.log
+TimeEditLocked                 Sat May 22 13:46:23 2021 PDT
