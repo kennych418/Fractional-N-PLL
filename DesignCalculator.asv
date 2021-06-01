@@ -62,13 +62,13 @@ Fs = R*(b-1)/b*tf([Tau2,1],[Tau2*Taup,Tau2,0]);
 LPF_TF = 2*pi/Icp*(1/Fs)*APLL;
 PhaseNoiseLPF = vnLPF*LPF_TF;
 figure(4);
-freqs(PhaseNoiseLPF.numerator{1,1}, PhaseNoiseLPF.denominator{1,1});
+bode(PhaseNoiseLPF);
 
-%VCO %Behavioral Fix?
+%VCO %Big Fix?
 PSD_VCO = tf(10^10*[10^-24,(10^-18+10^-15),(2*10^-9+10^-6),1],[1,0,0,0]);
 %freqs(10^10*[10^-24,(10^-18+10^-15),(2*10^-9+10^-6),1],[1,0,0,0],logspace(3,12));%Verifyshape
 VCO_TF = tf([Taup*Tau2/K,Tau2/K,0,0],[Tau2*Taup/K, Tau2/K, Tau2, 1]);
 PhaseNoiseVCO = PSD_VCO*VCO_TF;
 figure(5);
-freqs(PhaseNoiseVCO.numerator{1,1}, PhaseNoiseVCO.denominator{1,1});
+bode(VCO_TF);
 
