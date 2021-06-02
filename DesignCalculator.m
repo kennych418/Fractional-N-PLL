@@ -1,8 +1,6 @@
 fref = 100e6;
-f0 = 5e9;   %Currently unused
-fbw = 10e6;   %Arbitrary
-S1MHz = -120;   %Arbitrary
-N = 10;
+fbw = 10e6;   %Set to 1/10 reference freq
+N = 50;
 
 KVCO_SS = 8.484e9;    
 KVCO_NN = 11.403e9;
@@ -52,7 +50,8 @@ PhiRef = 10^-10*tf([1/10^6, 2/1000, 1],[1,0,0]);
 REF_TF = N*APLL;
 PhaseNoiseREF = PhiRef*REF_TF;
 figure(3);
-freqs(PhaseNoiseREF.numerator{1,1}, PhaseNoiseREF.denominator{1,1});
+freqs(PhaseNoiseREF.Numerator{1,1}, PhaseNoiseREF.Denominator{1,1});
+JitterREF = double(jitter(PhaseNoiseREF.Numerator{1,1}, PhaseNoiseREF.Denominator{1,1}, [1000,inf]));
 
 %LPF
 k = 1.38*10^-23; %Boltzmann
@@ -62,13 +61,34 @@ Fs = R*(b-1)/b*tf([Tau2,1],[Tau2*Taup,Tau2,0]);
 LPF_TF = 2*pi/Icp*(1/Fs)*APLL;
 PhaseNoiseLPF = vnLPF*LPF_TF;
 figure(4);
-freqs(PhaseNoiseLPF.numerator{1,1}, PhaseNoiseLPF.denominator{1,1});
+freqs(PhaseNoiseLPF.Numerator{1,1}, PhaseNoiseLPF.Denominator{1,1});
+JitterLPF = double(jitter(PhaseNoiseLPF.Numerator{1,1}, PhaseNoiseLPF.Denominator{1,1}, [1000,inf]));
 
-%VCO %Behavioral Fix?
-PSD_VCO = tf(10^10*[10^-24,(10^-18+10^-15),(2*10^-9+10^-6),1],[1,0,0,0]);
-%freqs(10^10*[10^-24,(10^-18+10^-15),(2*10^-9+10^-6),1],[1,0,0,0],logspace(3,12));%Verifyshape
+%VCO 
+PSD_VCO = tf(10^10*[0,0,(10^-6),1],[1,0,0,0]);
+freqs(10^10*[0,0,(10^-6),1],[1,0,0,0],logspace(3,12));%Verifyshape
 VCO_TF = tf([Taup*Tau2/K,Tau2/K,0,0],[Tau2*Taup/K, Tau2/K, Tau2, 1]);
 PhaseNoiseVCO = PSD_VCO*VCO_TF;
 figure(5);
-freqs(PhaseNoiseVCO.numerator{1,1}, PhaseNoiseVCO.denominator{1,1});
+freqs(PhaseNoiseVCO.Numerator{1,1}, PhaseNoiseVCO.Denominator{1,1},logspace(3,12));
+JitterVCO = double(jitter(PhaseNoiseVCO.Numerator{1,1}, PhaseNoiseVCO.Denominator{1,1}, [1000,inf]));
+
+JitterTotal = JitterREF + JitterLPF + JitterVCO;
+%% Functions
+
+%num is array of numerator coefficients, indexed [s^n, s^(n-1), ..., s^0]
+%den is array of denominator coefficients, indexed [s^n, s^(n-1), ..., s^0]
+%range is array for the integration range, indexed [lowerbound, upperbound]
+function y = jitter(num,den,range)
+    numsymbol = 0;
+    densymbol = 0;
+    syms s
+    length = size(num);
+    for i = length(2):-1:1
+        numsymbol = numsymbol + num(length(2)+1-i)*s^(i-1);
+        densymbol = densymbol + den(length(2)+1-i)*s^(i-1);
+    end
+    final = numsymbol/densymbol;
+    y = sqrt(2*(200e-12/(2*pi))^2*vpa(int(final,s,range)));
+end
 
