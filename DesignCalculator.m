@@ -6,7 +6,7 @@ KVCO_SS = 8.484e9;
 KVCO_NN = 11.403e9;
 KVCO_FF = 16.289e9;   
 
-b = 25;
+b = 20; %Prefer only C2 for wireline I/O LPFs, no C1
 
 zero1 = fbw / sqrt(b);
 zero2 = fbw * sqrt(b);
@@ -66,14 +66,29 @@ JitterLPF = double(jitter(PhaseNoiseLPF.Numerator{1,1}, PhaseNoiseLPF.Denominato
 
 %VCO 
 PSD_VCO = tf(10^10*[0,0,(10^-6),1],[1,0,0,0]);
-freqs(10^10*[0,0,(10^-6),1],[1,0,0,0],logspace(3,12));%Verifyshape
+%freqs(10^10*[0,0,(10^-6),1],[1,0,0,0],logspace(3,12));%Verifyshape
 VCO_TF = tf([Taup*Tau2/K,Tau2/K,0,0],[Tau2*Taup/K, Tau2/K, Tau2, 1]);
 PhaseNoiseVCO = PSD_VCO*VCO_TF;
 figure(5);
 freqs(PhaseNoiseVCO.Numerator{1,1}, PhaseNoiseVCO.Denominator{1,1},logspace(3,12));
 JitterVCO = double(jitter(PhaseNoiseVCO.Numerator{1,1}, PhaseNoiseVCO.Denominator{1,1}, [1000,inf]));
 
-JitterTotal = JitterREF + JitterLPF + JitterVCO;
+%%DDSM
+Sq = 1/12;
+Tref = 1/fref;
+NTF_Z =  filt ([1,-2,1] ,[1,0,0], Tref);
+CONV_TF = filt ([0,2*pi] ,[1,-1], Tref);
+COMB_TF = Sq * NTF_Z * CONV_TF;
+COMB_TF_S = d2c(COMB_TF,'tustin');
+PhaseNoiseDSM  = Tref * COMB_TF_S * APHI;
+figure(6);
+%freqs(COMB_TF_S.Numerator{1,1}, COMB_TF_S.Denominator{1,1},logspace(6,10));
+freqs(PhaseNoiseDSM.Numerator{1,1}, PhaseNoiseDSM.Denominator{1,1},logspace(3,15));
+JitterDSM = abs(double(jitter(PhaseNoiseDSM.Numerator{1,1}, PhaseNoiseDSM.Denominator{1,1}, [1000,inf])));
+
+
+
+JitterTotal = JitterREF + JitterLPF + JitterVCO + JitterDSM;
 %% Functions
 
 %num is array of numerator coefficients, indexed [s^n, s^(n-1), ..., s^0]
