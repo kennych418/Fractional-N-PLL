@@ -1,0 +1,20 @@
+// VerilogA for Project, Regulator, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module Regulator(vout, GND, VDD, vin);
+	output vout;
+	electrical vout;
+	inout GND;
+	electrical GND;
+	inout VDD;
+	electrical VDD;
+	input vin;
+	electrical vin;
+
+	analog begin
+		V(vout) <+ V(vin);
+	end	
+
+endmodule

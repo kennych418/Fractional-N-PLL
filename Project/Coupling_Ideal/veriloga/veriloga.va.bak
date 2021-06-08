@@ -1,0 +1,27 @@
+// VerilogA for Project, Coupling_Ideal, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module Coupling_Ideal(input IN1, input IN2, output OUT1, output OUT2, inout VDD, inout VSS);
+
+	electrical IN1;
+	electrical IN2;
+	electrical OUT1;
+	electrical OUT2;
+	electrical OUT;
+	electrical VDD;
+	electrical VSS;
+
+	analog begin
+		if(V(IN1) > 0.3) begin
+			V(OUT1) <+ V(VDD);
+			V(OUT2) <+ V(VSS);
+		end
+		else begin
+			V(OUT1) <+ V(VSS);
+			V(OUT2) <+ V(DD);
+		end
+	end
+
+endmodule

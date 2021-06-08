@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      kennyc
+HostName                       eeapps04.seas.ucla.edu
+ProcessIdentifier              22418
+ProcessCreationTime_UTC        1623088736
+ProcessCreationTime_Readable   Mon Jun  7 10:58:56 2021 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /w/home.15/ee/ugrad/kennyc/ee215e/Project/ChargePump/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Jun  7 12:36:21 2021 PDT

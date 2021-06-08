@@ -7,7 +7,7 @@ tmp1 = make_sevVariableStruct()
 tmp1 = (ncons nil)
 )
 tmp1->name = "VDD"
-tmp1->expression = "1"
+tmp1->expression = "760m"
 tmp1->index = 1
 list(tmp1)
 )

@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-unmapped -mpssession virtuoso28908 -mpshost eeapps04.seas.ucla.edu 
+\o Arguments:		-unmapped -mpssession virtuoso7011 -mpshost eeapps04.seas.ucla.edu 
 \o Working Directory:	eeapps04.seas.ucla.edu:/w/home.15/ee/ugrad/kennyc/ee215e
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -12,25 +12,21 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(1092 2958 658 452))
 \w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
 \w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
-\a nrResizeWindow(cdsLibManager list(8 941 856 462))
-\a nrSetCurrentWindow(cdsLibManager)
-\o MPS service: map window
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(798 2048 856 462))
-\a nrResizeWindow(cdsLibManager list(798 2191 856 333))
-\a nrResizeWindow(cdsLibManager list(728 2653 856 333))
-\a nrResizeWindow(cdsLibManager list(926 2653 658 333))
-\a nrResizeWindow(cdsLibManager list(926 2653 658 452))
-\a nrResizeWindow(cdsLibManager list(327 3040 658 452))
-\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "gpdk090"
+\a cdsLibManager->libLineEdit->value = "gpdk090"
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "2or3Cell"
-\a cdsLibManager->cellLineEdit->value = "2or3Cell"
+\a cdsLibManager->cellListBox->value = "PhaseDetector"
+\a cdsLibManager->cellLineEdit->value = "PhaseDetector"
+\a cdsLibManager->cellListBox->value = "PhaseDetector_TB"
+\a cdsLibManager->cellLineEdit->value = "PhaseDetector_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
@@ -46,8 +42,26 @@
 \w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "2or3Cell"
-\a cdsLibManager->cellLineEdit->value = "2or3Cell"
+\a cdsLibManager->cellListBox->value = "PhaseDetector_TB"
+\a cdsLibManager->cellLineEdit->value = "PhaseDetector_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
+\w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "PhaseDetector_TB"
+\a cdsLibManager->cellLineEdit->value = "PhaseDetector_TB"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -57,6 +71,12 @@
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "VCO"
 \a cdsLibManager->cellLineEdit->value = "VCO"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "PLL"
+\a cdsLibManager->cellLineEdit->value = "PLL"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
@@ -73,72 +93,3 @@
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->FileNewCVButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "CouplingInverter"
-\a cdsLibManager->cellLineEdit->value = "CouplingInverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup2" 45 48 2 "")
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "CouplingInverter"
-\a cdsLibManager->cellLineEdit->value = "CouplingInverter"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->FileNewCVButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "PhaseDetector"
-\a cdsLibManager->cellLineEdit->value = "PhaseDetector"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "CouplingInverter"
-\a cdsLibManager->cellLineEdit->value = "CouplingInverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: The directory: '/w/home.15/ee/ugrad/kennyc/ee215e/HW1' does not exist
-\w 	but was defined in libFile '/w/home.15/ee/ugrad/kennyc/ee215e/cds.lib' for Lib 'HW1'.
-\a cdsLibManager->libListBox->value = "Project"
-\a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "CouplingInverter"
-\a cdsLibManager->cellLineEdit->value = "CouplingInverter"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrResizeWindow(cdsLibManager list(0 0 658 452))
-\o MPS service: shutdown
-\o libManager is exiting.
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a exit(0)

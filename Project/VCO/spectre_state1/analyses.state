@@ -52,7 +52,7 @@ analysis(pnoise fields determsourcesfreqs3) nil
 analysis(pnoise fields determsourcesfreqs4) nil
 analysis(pnoise fields determsourcesfreqs5) nil
 analysis(pnoise fields determsourcesfreqs6) nil
-analysis(pnoise fields enable) (nil)
+analysis(pnoise fields enable) (t)
 analysis(pnoise fields enableEvent) t
 analysis(pnoise fields enableEvent2) t
 analysis(pnoise fields enableEvent3) t
@@ -430,7 +430,7 @@ analysis(pnoise fields specificPoints3) nil
 analysis(pnoise fields specificPoints4) nil
 analysis(pnoise fields specificPoints5) nil
 analysis(pnoise fields specificPoints6) nil
-analysis(pnoise fields start) "1k"
+analysis(pnoise fields start) "10k"
 analysis(pnoise fields start2) ""
 analysis(pnoise fields start3) ""
 analysis(pnoise fields start4) ""
@@ -454,7 +454,7 @@ analysis(pnoise fields stepTypeLog3) "Points Per Decade"
 analysis(pnoise fields stepTypeLog4) "Points Per Decade"
 analysis(pnoise fields stepTypeLog5) "Points Per Decade"
 analysis(pnoise fields stepTypeLog6) "Points Per Decade"
-analysis(pnoise fields stop) "100M"
+analysis(pnoise fields stop) "1G"
 analysis(pnoise fields stop2) ""
 analysis(pnoise fields stop3) ""
 analysis(pnoise fields stop4) ""
@@ -521,7 +521,7 @@ analysis(pnoise fields tdnoise3) "Noise Skip Count"
 analysis(pnoise fields tdnoise4) "Noise Skip Count"
 analysis(pnoise fields tdnoise5) "Noise Skip Count"
 analysis(pnoise fields tdnoise6) "Noise Skip Count"
-analysis(pnoise fields thresholdvalue) "0.5"
+analysis(pnoise fields thresholdvalue) "0"
 analysis(pnoise fields thresholdvalue2) ""
 analysis(pnoise fields thresholdvalue3) ""
 analysis(pnoise fields thresholdvalue4) ""
@@ -660,7 +660,7 @@ analysis(pss fields dynParamB) nil
 analysis(pss fields dynParamListBox) (nil choices nil value nil)
 analysis(pss fields dynchoice) "Parameter file"
 analysis(pss fields dynparam) ""
-analysis(pss fields enable) (nil)
+analysis(pss fields enable) (t)
 analysis(pss fields engine) "Shooting"
 analysis(pss fields errpreset) "conservative"
 analysis(pss fields flexbalance) "no"
@@ -875,7 +875,7 @@ analysis(tran fields dynamicChoice) "Vector"
 analysis(tran fields dynamicParameter) "Parameter"
 analysis(tran fields dynchoice) "Parameter vector"
 analysis(tran fields dynparam) ""
-analysis(tran fields enable) (t)
+analysis(tran fields enable) (nil)
 analysis(tran fields errpreset) ""
 analysis(tran fields noisefmax) "100G"
 analysis(tran fields noisefmin) "1M"

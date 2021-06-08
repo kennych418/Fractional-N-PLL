@@ -1,0 +1,39 @@
+Reading file: 
+        /w/home.15/ee/ugrad/kennyc/ee215e/Project/DDSM/veriloga/veriloga.va
+Reading file: 
+        /w/apps3/Cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file: 
+        /w/apps3/Cadence/MMSIM151/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+
+Warning from spectre during AHDL compile.
+    WARNING (VACOMP-1145):
+        "/w/home.15/ee/ugrad/kennyc/ee215e/Project/DDSM/veriloga/veriloga.va",
+        line 19: (Archaic Syntax) Does not comply with the Accellera
+        Verilog-AMS 2.0 Standard and beyond. To comply with the current
+        standard, replace `[]' with `{}' for literal arrays.
+Error found by spectre during AHDL compile.
+    ERROR (VACOMP-1182): "y = [1, 2, 3, 4];<<--? "
+        "/w/home.15/ee/ugrad/kennyc/ee215e/Project/DDSM/veriloga/veriloga.va",
+        line 19: The target of the assignment is a vector. Specify a scalar as
+        the target of the assignment.
+    ERROR (VACOMP-1562):
+        "/w/home.15/ee/ugrad/kennyc/ee215e/Project/DDSM/veriloga/veriloga.va",
+        line 19: Encountered invalid assignment. Cannot write to the identifier
+        on the left-hand-side of this assignment.
+Warning from spectre during AHDL compile.
+    WARNING (VACOMP-1086):
+        "/w/home.15/ee/ugrad/kennyc/ee215e/Project/DDSM/veriloga/veriloga.va",
+        line 23: `always' is not a reserved keyword now but will be one in a
+        future release. Parsing `always' as an identifier for now.
+Error found by spectre during AHDL compile.
+    ERROR (VACOMP-2259): "always @<<--?  (posedge clk) begin"
+        "/w/home.15/ee/ugrad/kennyc/ee215e/Project/DDSM/veriloga/veriloga.va",
+        line 23: syntax error.
+Warning from spectre during AHDL compile.
+    WARNING (VACOMP-1086):
+        "/w/home.15/ee/ugrad/kennyc/ee215e/Project/DDSM/veriloga/veriloga.va",
+        line 23: `posedge' is not a reserved keyword now but will be one in a
+        future release. Parsing `posedge' as an identifier for now.
+Error found by spectre during AHDL compile.
+    ERROR (VACOMP-1814): Maximum allowable errors exceeded. Exiting AHDL
+        compilation....

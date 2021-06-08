@@ -1,0 +1,15 @@
+// VerilogA for Project, VerilogA_Test, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module Regulator_Ideal(input in, output out);
+
+	electrical in;
+	electrical out;
+
+	analog begin
+		V(out) <+ V(in);
+	end
+
+endmodule

@@ -10,7 +10,7 @@ Pass2f = open("DDSMDataPass2f.txt", "w")
 flines = f.readlines()
 
 Tref = 10e-9
-N = 18
+N = 16
 
 for i in range(0,len(flines)):
     line = flines[i].split()

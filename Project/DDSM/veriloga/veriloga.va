@@ -1,0 +1,44 @@
+// VerilogA for Project, DDSM, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module DDSM(input clk, input [4:0] N, output [4:0] P, output Pass1, output Pass2, inout VDD, inout VSS);
+
+	electrical VDD;
+	electrical VSS;
+
+	integer counter;
+	integer y[0:3];
+
+	integer sum;
+
+	analog begin
+		@(initial_step) begin
+			counter = 0;
+			y = [1, 2, 3, 4];
+		end
+	end
+
+	always @ (posedge clk) begin
+			counter = counter + 1;
+			sum = N + y[counter];
+			if (sum > 31) begin
+				P = sum - 32;
+				V(Pass1) <+ V(VSS);
+				V(Pass2) <+ V(VSS);
+			end
+			else if (sum > 15) begin
+				P = sum - 16;
+				V(Pass1) <+ V(VDD);
+				V(Pass2) <+ V(VSS);
+			end
+			else begin
+				P = sum - 8;
+				V(Pass1) <+ V(VDD);
+				V(Pass2) <+ V(VSS);
+			end
+	end
+
+
+endmodule
